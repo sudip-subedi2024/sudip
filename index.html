@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sudip subedi</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/367701673_822785869507796_2335830420174895597_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=ks_KBzQDA9sAX9VXGCY&_nc_ht=scontent.fktm16-1.fna&oh=00_AfCiXBlpdf4iFyvyPRz5TEX8AyIzNswdUx8R2d_8ZOAmsg&oe=64EE4A1F');
+  min-height: 100%;
+}
+</style>
+</head>
+<body>
+
+<!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="s2-button s0-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="#" class="w3-bar-item w3-button w3-text-blue w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="#workfolio" class="w3-bar-item w3-button w3-text-pale black w3-hover-black" onclick="closeNav()">workfolio</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+    <h1 class="w3-jumbo"><b>sudip subedi</b></h1>
+    <p>Ethical hacker and Web Designer.</p>
+    <img src="https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/367701673_822785869507796_2335830420174895597_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=ks_KBzQDA9sAX9VXGCY&_nc_ht=scontent.fktm16-1.fna&oh=00_AfCiXBlpdf4iFyvyPRz5TEX8AyIzNswdUx8R2d_8ZOAmsg&oe=64EE4A1F" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="https://scontent.fktm16-1.fna.fbcdn.net/v/t39.30808-6/353046950_786551946464522_7448818223167925225_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=174925&_nc_ohc=e3HU-iehB4gAX-1Vonn&_nc_ht=scontent.fktm16-1.fna&oh=00_AfAJd_DmqhqspPqgqinJ4loZZhxVyK-D93QqTjqlcGUzkw&oe=64EDA587" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+  </header>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-32 w3-content" id="workfolio">
+    <h2 class="w3-text-grey">My attributes</h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="https://www.udacity.com/blog/wp-content/uploads/2022/07/Hacker_Blog-scaled.jpeg" style="width:100%">
+        <img src="https://www.eojohnson.com/hubfs/EO_Johnson_Business_Technologies_January2019-Theme/Images/Hacked-wordcloud-1080x675.jpeg" style="width:100%">
+        <img src="https://i.ytimg.com/vi/7pgHX6iO3Jg/sddefault.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="https://blog.ipleaders.in/wp-content/uploads/2020/09/cyber-crime.jpg" style="width:100%">
+        <img src="https://www.tutorialspoint.com/communication_technologies/images/hacking.jpg" style="width:100%">
+        <img src="https://assets.mimecast.com/api/public/content/c02264765b3b49e3b0e125308b400fcb?v=f6276b9d" style="width:100%">
+        <img src="https://edoxi.com/admin/assets/img/studyhub/Talk_between_two_professionals_about_Ethical_Hacker_job_roles.webp" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End workfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-pale yellow w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p>Hey! This is sudip here.. As I am accompanied as a shift programmmer.Once I was being a very poor at this. But after all when I started Learning hacking;My approaches begins very faster. Conclusionly, I can easily get the vulnerabilities of many software injecting metsploit.Thank You...
+    </p>
+    <h3 class="w3-padding-16">My Alternatives skills</h3>
+    <p class="w3-wide">Metasploiting</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">60%</div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+      <p class="w3-wide">cyber security</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">almost 90%</div>
+    </div>
+    <p class="w3-wide">Ethical accesing guest</p>
+    <div class="w3-light-grey">
+      <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">78%</div>
+      <p class="w3-wide">Peneration on softwares</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">66%</div>
+    </div><br>
+
+    <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">6+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">29+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">32+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">300+</span><br>
+        Meetings
+      </div>
+    </div>
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> Download Resume
+    </button>
+
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24">My Reputation</h3>
+    <img src="https://media.licdn.com/dms/image/D4D03AQErfx7YPXBjjA/profile-displayphoto-shrink_800_800/0/1677396933422?e=2147483647&v=beta&t=y4e0DHQv-P7h_loeNID3vkybney4YtemT_zkcGjCTm4" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Subodh Thakur.</span> Web Designer.</p>
+    <p>sudip is just better of all. I am so happy to have met him in zoom!</p><br>
+   
+    <img src="data:image/jpeg;base64,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" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Dr. Mr. Vivek Gupta.</span> Founder of venus public school.</p>
+    <p>Truely thank you babu..sudip saved me to being pirated and hacked from bad hackers.</p><br>
+    
+    <img src="data:image/jpeg;base64,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" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-text-black w3-margin-right">Mike Pondsmith.</span> Chairman of cyber punk.</p>
+    <p> Age doesn't matter, This boy is cool..No one is better than sudip subedi.</p><br>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16">My costing </h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-dark-blue w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">complete SQL course</li>
+          <li class="w3-padding-16">Basic hackings</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-center w3-card w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design expert</li>
+          <li class="w3-padding-16">complete Hacking course</li>
+          <li class="w3-padding-16">Metasploit and peneration course</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 50</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+  <!-- End About Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Me</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Kathmandu,Nepal</p>
+      <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 9810273112</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: sudipsubedi872@gmail.com</p>
+    </div>
+    
+    <!-- Image of location/map -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Locus3.jpg" style="width:100%;margin:32px 0">
+   
+    <p>Lets get in touch. Send me a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-google w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="s2-medium">Powered by <a href="sudipsubediofficial.com.np" target="_blank" class="w3-hover-text-green">sudipsubedi</a></p>
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<script>
+// Open and close sidebar
+function openNav() {
+  document.getElementById("mySidebar").style.width = "60%";
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
